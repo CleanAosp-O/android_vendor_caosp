@@ -45,3 +45,6 @@ PRODUCT_PACKAGES += \
 
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/caosp/overlay/common
+
+# Google sounds
+include vendor/caosp/google/GoogleAudio.mk
