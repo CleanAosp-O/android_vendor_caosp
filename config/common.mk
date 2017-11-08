@@ -23,7 +23,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
     vendor/caosp/build/tools/backuptool.sh:install/bin/backuptool.sh \
     vendor/caosp/build/tools/backuptool.functions:install/bin/backuptool.functions \
-    vendor/caosp/build/tools/50-cm.sh:system/addon.d/50-cm.sh
+    vendor/caosp/build/tools/50-clean.sh:system/addon.d/50-clean.sh
 
 # Bring in camera effects
 PRODUCT_COPY_FILES +=  \
