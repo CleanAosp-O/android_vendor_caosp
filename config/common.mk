@@ -19,6 +19,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.adb.secure=0
 
+# Backup Tool
+PRODUCT_COPY_FILES += \
+    vendor/caosp/build/tools/backuptool.sh:install/bin/backuptool.sh \
+    vendor/caosp/build/tools/backuptool.functions:install/bin/backuptool.functions \
+    vendor/caosp/build/tools/50-cm.sh:system/addon.d/50-cm.sh
+
 # Bring in camera effects
 PRODUCT_COPY_FILES +=  \
     vendor/caosp/prebuilt/common/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
