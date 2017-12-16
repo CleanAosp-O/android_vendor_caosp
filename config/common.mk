@@ -40,3 +40,6 @@ include vendor/caosp/google/GoogleAudio.mk
 
 # Packages
 include vendor/caosp/config/packages.mk
+
+# Clean version
+include vendor/caosp/config/version.mk
