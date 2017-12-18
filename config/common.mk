@@ -7,7 +7,6 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PACKAGES += \
     GBoard \
-    GoogleFiles \
     Pixel2Launcher
 
 # Common overlay
