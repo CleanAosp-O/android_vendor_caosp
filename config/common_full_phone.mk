@@ -34,6 +34,7 @@ PRODUCT_PACKAGES += \
     audio_effects.conf \
     Basic \
     CellBroadcastReceiver \
+    colorpicker \
 #    LatinIME \
     Launcher3
 

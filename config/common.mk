@@ -5,9 +5,21 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.adb.secure=0
 
+# Don't compile SystemUITests
+EXCLUDE_SYSTEMUI_TESTS := true
+
+PRODUCT_PACKAGES += \
+    PixelOverlay \
+    NexusOverlay
+
 PRODUCT_PACKAGES += \
     GBoard \
     Pixel2Launcher
+
+PRODUCT_PACKAGES += \
+    AndroidDarkThemeOverlay \
+    SettingsDarkThemeOverlay \
+    SysuiDarkThemeOverlay
 
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/caosp/overlay/common
