@@ -8,23 +8,17 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 # Don't compile SystemUITests
 EXCLUDE_SYSTEMUI_TESTS := true
 
-PRODUCT_PACKAGES += \
-    PixelOverlay \
-    NexusOverlay
-
+# Additional Packages
 PRODUCT_PACKAGES += \
     GBoard \
-    Pixel2Launcher
-
-PRODUCT_PACKAGES += \
-    AndroidDarkThemeOverlay \
-    SettingsDarkThemeOverlay \
-    SysuiDarkThemeOverlay
+    PixelOverlay \
+    Pixel2Launcher \
+    NexusOverlay
 
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/caosp/overlay/common
 include vendor/caosp/config/version.mk
- 
+
 # Google sounds
 include vendor/caosp/google/GoogleAudio.mk
 
