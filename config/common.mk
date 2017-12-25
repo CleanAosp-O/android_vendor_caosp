@@ -13,6 +13,7 @@ PRODUCT_PACKAGES += \
     AndroidMessages \
     DeskClock \
     GBoard \
+    LiveWallpapersPicker \
     PixelOverlay \
     Pixel2Launcher
 
@@ -21,7 +22,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGE_OVERLAYS += vendor/caosp/overlay/common
 include vendor/caosp/config/version.mk
 
-# Google sounds
+# Oreo 8.1 sounds
 include frameworks/base/data/sounds/AllAudio.mk
 
 # World APN list
