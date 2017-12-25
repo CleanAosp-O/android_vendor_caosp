@@ -10,17 +10,20 @@ EXCLUDE_SYSTEMUI_TESTS := true
 
 # Additional Packages
 PRODUCT_PACKAGES += \
+    AndroidMessages \
+    DeskClock \
     GBoard \
+    GoogleWallpapers \
     PixelOverlay \
-    Pixel2Launcher \
-    NexusOverlay
+    Pixel2Launcher
+
 
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/caosp/overlay/common
 include vendor/caosp/config/version.mk
 
 # Google sounds
-include vendor/caosp/google/GoogleAudio.mk
+include frameworks/base/data/sounds/AllAudio.mk
 
 # World APN list
 PRODUCT_COPY_FILES += \
