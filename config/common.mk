@@ -13,7 +13,6 @@ PRODUCT_PACKAGES += \
     AndroidMessages \
     DeskClock \
     GBoard \
-    GoogleWallpapers \
     PixelOverlay \
     Pixel2Launcher
 
