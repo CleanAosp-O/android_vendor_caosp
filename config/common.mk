@@ -11,11 +11,11 @@ EXCLUDE_SYSTEMUI_TESTS := true
 # Additional Packages
 PRODUCT_PACKAGES += \
     AndroidMessages \
-    Chromium \
     DeskClock \
     GBoard \
     LiveWallpapersPicker \
     PixelOverlay
+
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/caosp/overlay/common
 include vendor/caosp/config/version.mk

@@ -29,7 +29,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     audio_effects.conf \
     Basic \
-    Camera2 \
     CellBroadcastReceiver \
     colorpicker \
     Launcher3
