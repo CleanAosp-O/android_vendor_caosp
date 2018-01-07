@@ -13,6 +13,7 @@
     <string-array translatable="false" name="config_globalActionsList">
         <item>power</item>
         <item>restart</item>
+        <item>restart_recovery</item>
     </string-array>
 
     <bool name="config_nightDisplayAvailable">true</bool>
