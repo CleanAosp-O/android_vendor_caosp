@@ -13,11 +13,13 @@ PRODUCT_PACKAGES += \
     AndroidMessages \
     DeskClock \
     GBoard \
-    LiveWallpapersPicker \
-    PixelOverlay
+    PixelOverlay \
+    SysuiDarkThemeOverlay
 
 # Common overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/caosp/overlay/common
+PRODUCT_PACKAGE_OVERLAYS += \
+ vendor/caosp/overlay/common
+
 include vendor/caosp/config/version.mk
 
 # Oreo 8.1 sounds
