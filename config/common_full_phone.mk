@@ -30,7 +30,6 @@ PRODUCT_PACKAGES += \
     audio_effects.conf \
     Basic \
     CellBroadcastReceiver \
-    colorpicker \
     Launcher3
 
 # Emoji
