@@ -12,9 +12,15 @@ EXCLUDE_SYSTEMUI_TESTS := true
 PRODUCT_PACKAGES += \
     AndroidMessages \
     DeskClock \
-    GBoard \
-    PixelOverlay \
-    SysuiDarkThemeOverlay
+    GBoard
+
+# RRO Themes for Oreo OMS
+PRODUCT_PACKAGES += \
+    SysuiDarkThemeOverlay \
+    SettingsBlackThemeOverlay \
+    SettingsDefaultThemeOverlay \
+    SystemBlackThemeOverlay \
+    SystemDefaultThemeOverlay
 
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += \

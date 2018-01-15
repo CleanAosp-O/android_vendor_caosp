@@ -37,5 +37,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libemoji
 
-# Inherit common androidx stuff
 $(call inherit-product, vendor/caosp/config/common.mk)
+$(call inherit-product, vendor/caosp/themes/themes.mk)
