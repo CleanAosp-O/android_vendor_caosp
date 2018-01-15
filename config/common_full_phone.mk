@@ -38,4 +38,3 @@ PRODUCT_PACKAGES += \
     libemoji
 
 $(call inherit-product, vendor/caosp/config/common.mk)
-$(call inherit-product, vendor/caosp/themes/themes.mk)
