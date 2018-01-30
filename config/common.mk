@@ -32,19 +32,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
-# Additional packages
-PRODUCT_PACKAGES += \
-    audio_effects.conf \
-    Basic \
-    Development \
-    LatinIME
-
-# Emoji
-PRODUCT_PACKAGES += \
-    libemoji
-
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/caosp/overlay/common
 
 # Google sounds
 include vendor/caosp/google/GoogleAudio.mk
+
+# Packages
+include vendor/caosp/config/packages.mk
