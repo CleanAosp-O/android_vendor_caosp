@@ -5,7 +5,7 @@ PRODUCT_PACKAGES += \
     CellBroadcastReceiver \
     Development \
     LatinIME \
-    Launcher3 \
+    Launcher3
 
 # Emoji
 PRODUCT_PACKAGES += \
