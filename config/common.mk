@@ -27,8 +27,9 @@ PRODUCT_COPY_FILES += \
 
 # Bring in camera effects
 PRODUCT_COPY_FILES +=  \
-    vendor/caosp/prebuilt/common/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
-    vendor/caosp/prebuilt/common/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
+    vendor/caosp/prebuilt/common/media/LMspeed_508.emd:$(TARGET_COPY_OUT_VENDOR)/media/LMspeed_508.emd \
+    vendor/caosp/prebuilt/common/media/PFFprec_600.emd:$(TARGET_COPY_OUT_VENDOR)/media/PFFprec_600.emd
+
 
 # Latin IME lib
 PRODUCT_COPY_FILES += \
