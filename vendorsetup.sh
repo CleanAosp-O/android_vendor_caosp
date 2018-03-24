@@ -15,3 +15,4 @@
 #
 
 add_lunch_combo caosp_shamu-userdebug
+add_lunch_combo caosp_taimen-userdebug
